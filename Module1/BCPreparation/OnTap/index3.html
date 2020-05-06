@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <script>
+            function batDen(){
+                document.getElementById('light').src='images/lighton.gif';
+            }
+            function tatDen(){
+                document.getElementById('light').src='images/lightoff.gif';
+            }
+            function lapDen(){
+                document.getElementById('light').style.display='block';
+            }
+            function thaoDen(){
+                document.getElementById('light').style.display='none';
+            }
+        </script>
+    </head>
+    <body>
+        <img src="images/lightoff.gif" style="display: none;" id="light">
+        <button onclick="batDen()">Bật đèn</button>
+        <button onclick="tatDen()">Tắt đèn</button>
+        <button onclick="lapDen()">Lắp đèn</button>
+        <button onclick="thaoDen()">Tháo đèn</button>
+
+        <script>
+            let cacls = prompt("nhập vào biểu thức")
+            alert(eval(cacls));
+        </script>
+    </body>
+</html>

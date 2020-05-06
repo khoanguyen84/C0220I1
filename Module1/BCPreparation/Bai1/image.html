@@ -1,0 +1,25 @@
+<html>
+
+<head></head>
+
+<body>
+
+    <form id="form1" runat="server">
+        <input type='file' id="imgInp" />
+        <img id="blah" src="#" alt="your image" />
+    </form>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script>
+        function readURL(e) {
+            if (this.files && this.files[0]) {
+                var reader = new FileReader();
+                $(reader).load(function (e) { $('#blah').attr('src', e.target.result); });
+                reader.readAsDataURL(this.files[0]);
+            }
+        }
+
+        $("#imgInp").change(readURL);
+    </script>
+</body>
+
+</html>

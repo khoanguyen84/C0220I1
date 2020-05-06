@@ -1,0 +1,38 @@
+<html>
+    <head></head>
+    <body>
+        <script>
+            function createArr2(r,c){
+                let arr2 = new Array();
+                for(let i=0;i < r; i++){
+                    let arr1 = new Array();
+                    for(let j=0; j<c; j++){
+                        arr1[j] = Math.floor(Math.random()*10 + 40);
+                    }
+                    arr2[i] = arr1;
+                }
+                return arr2;
+            }
+
+            function printArr2(arr2, r, c){
+                let str ="";
+                for(let i=0;i < r; i++){
+                    for(let j=0; j<c; j++){
+                        str = str + arr2[i][j] + " ";
+                    }
+                    str += "<br>";
+                }
+                return str;
+            }
+
+            function main(){
+                let row = +prompt("enter row: ");
+                let col = +prompt("enter col: ");
+                let matrix = createArr2(row, col);
+                document.write(printArr2(matrix, row, col));
+            }
+
+            main();
+        </script>
+    </body>
+</html>

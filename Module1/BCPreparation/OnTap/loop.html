@@ -1,0 +1,120 @@
+<html>
+    <head>
+        <style>
+            table,tr,td{
+                border-collapse: collapse;
+                border: 1px solid red;
+                padding: 5px;
+            }
+            input, select{
+                padding: 5px;
+            }
+        </style>
+    </head>
+    <body>
+        <table>
+            <tr>
+                <td>Giá trị:</td>
+                <td>
+                    <input type="text" name="giaTri" id="giaTri" autofocus>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label id="lb1">Dãy số từ 1 đến n</label>
+                </td>
+                <td>
+                    <p id="p1"></p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label id="lb2">Các số nguyên tố từ 1 đến n</label>
+                </td>
+                <td>
+                    <p id="p2"></p>
+                </td>
+            </tr>
+            
+            <tr>
+                <td colspan="2">
+                    <input type="button" onclick="xuLy()" value="Xử lý">
+                </td>
+            </tr>
+        </table>
+
+        <script>
+            function loopFor(n){
+                let str = "";
+                for(let i=0;i<n;i++){
+                    str = str + (i+1) + ", ";
+                }
+                return str;
+            }
+
+            function loopFor2(n){
+                let str = "";
+                for(let i=n;i>0;i--){
+                    str = (i) + ", " + str;
+                }
+                return str.substr(0, str.length - 2);
+            }
+
+            function loopWhile(n){
+                let str ="";
+                let i = 0;
+                while(i<n){
+                    str = str + (i+1) + ", ";
+                    i+=1;
+                }
+                return str;
+            }
+
+            function loopDoWhile(n){
+                let str = "";
+                let i = 0;
+
+                do{
+                    i +=1;
+                    if(i<n){
+                        str = str + i + ", ";
+                    }
+                    else{
+                        str = str + i;
+                    }
+                    
+                }
+                while(i<n);
+                return str;
+            }
+
+            function laSNT(n){
+                if(n<2){
+                    return false;
+                }
+                for(let i=2;i<= Math.sqrt(n); i++ ) {
+                    if(n%i == 0)
+                        return false;
+                }
+                return true;
+            }
+
+            function daySNT(n){
+                let str = "";
+                for(let i = 2; i<= n; i++){
+                    if(laSNT(i)){
+                        str = str + i + ", ";
+                    }
+                }
+                return str.substr(0, str.length - 2);
+            }
+            function xuLy(){
+                let giaTri = parseInt(document.getElementById("giaTri").value);
+                document.getElementById("lb1").innerHTML = "Dãy từ 1 đến " + giaTri;
+                document.getElementById("p1").innerHTML = loopFor2(giaTri);
+                document.getElementById("lb2").innerHTML = "Dãy số nguyên tố từ 1 đến " + giaTri;
+                document.getElementById("p2").innerHTML = daySNT(giaTri);
+            }
+        </script>
+    </body>
+</html>

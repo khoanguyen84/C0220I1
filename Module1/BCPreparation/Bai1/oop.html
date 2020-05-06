@@ -1,0 +1,123 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+        <script>
+            let an = {};
+            an.fullName = "Hồng Ân";
+            an.gender = "Female";
+            an.showInfo = function(){
+                return "My name is An and I am a girl";
+            }
+
+            function Person(fn, age, gender, w){
+                this.fullName = fn;
+                this.age = age;
+                this.gender = gender;
+                this.weight = w;
+
+                this.greeting = function(){
+                    return "My fullname is " + this.fullName +
+                            ", I am " + this.age + " years old";
+                }
+
+                this.changeAge = function(newAge){
+                    this.age = newAge;
+                }
+
+                this.changeName = function(newName){
+                    this.fullName = newName + " USA";
+                }
+
+                this.getWeight = function(){
+                    return this.weight;
+                }
+                this.eat = function(food, v){
+                    this.weight = this.weight + v;
+                    food.decrement(v);
+                }
+
+                this.drink = function(beer){
+                    this.weight +=1;
+                    beer.decrement();
+                }
+            }
+
+            // function Human(){
+            //     this.setFullName = function(fn){
+            //         this.fullName = fn;
+            //     }
+
+            //     this.getFullName = function(){
+            //         return this.fullName;
+            //     }
+
+            //     this.setGender = function(g){
+            //         this.gender = g;
+            //     }
+            //     this.getGender = function(){
+            //         return this.gender;
+            //     }
+            // }
+
+            function Food(n, w){
+                this.name = n;
+                this.weigth = w;
+
+                this.decrement = function(v){
+                    this.weigth = this.weigth - v;
+                }
+
+                this.getWeight = function(){
+                    return this.weigth;
+                }
+
+                this.getName = function(){
+                    return this.name;
+                }
+            }
+
+            function Beer(n, w){
+                this.name = n;
+                this.weight = w;
+
+                this.decrement = function(){
+                    this.weight -= 1;
+                }
+
+                this.getWeight = function(){
+                    return this.weight;
+                }
+            }
+
+            function Phone(n, b){
+                this.name = n;
+                this.inbox = [];
+                this.sent =[];
+                this.battery = b;
+
+                this.charge = function(b){
+                    this.battery = b;
+                }
+
+                this.checkStatus = function(){
+                    return this.battery > 0 ? "On" : "Off";
+                }
+                this.send = function(reciver, msg){
+                    this.sent.push(msg)
+                    reciver.inbox.push(msg);
+                    this.battery -= 1;
+                }
+
+                this.showInbox = function(){
+                    return this.inbox;
+                }
+
+                this.showSent = function(){
+                    return this.sent;
+                }
+            }
+        </script>
+    </body>
+</html>

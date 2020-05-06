@@ -1,0 +1,27 @@
+<html>
+    <head></head>
+    <body>
+        <form id="formRegister">
+            <!-- <input type="email" 
+                    pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" 
+                    required> -->
+            <input type="text" 
+                    data-rule-email="true"
+                    data-msg-email="Email sai định dạng">
+            <input type="submit" value="Register">
+        </form>
+    </body>
+
+    <script type="text/javascript" src="http://code.jquery.com/jquery-2.1.0.js"></script>
+    <script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.11.1/jquery.validate.min.js"></script>
+    
+    CRUD
+    Create
+    Read
+    Update
+    Delete
+
+    <script>
+        $('#formRegister').validate();
+    </script>
+</html>

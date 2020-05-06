@@ -1,0 +1,26 @@
+<html>
+    <head></head>
+    <body>
+        <script>
+            function createArray(s){
+                let arr = [];
+                for(let i = 0; i< s; i++){
+                    arr[i] = Math.floor(Math.random()*10 + 40);
+                }
+                return arr;
+            }
+
+            function printArray(arr){
+                return arr.join('-');
+            }
+
+            function main(){
+                let size = +prompt("enter size:");
+                let array = createArray(size);
+                document.write(printArray(array));
+            }
+
+            main();
+        </script>
+    </body>
+</html>

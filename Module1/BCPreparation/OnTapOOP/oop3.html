@@ -1,0 +1,36 @@
+<html>
+    <head></head>
+    <body>
+        <script>
+            class Person{
+                constructor(fn, a){
+                    this.fullname = fn;
+                    this.age = a;
+                }
+
+                greeting(){
+                    return "Fullname: " + this.fullname
+                    + "<br>Age: " + this.age;
+                }
+
+                static breath(){
+                    return "still breath still alive";
+                }
+            }
+
+            class Student extends Person{
+                constructor(fn, a, e){
+                    super(fn, a);
+                    this.email = e;
+                }
+                //overide
+                greeting(){
+                     return super.greeting()+
+                             "<br>Email :" +this.email;
+                    // return "Email: " +this.email;
+                }
+
+            }
+        </script>
+    </body>
+</html>

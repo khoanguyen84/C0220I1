@@ -1,0 +1,13 @@
+C:\CodeGym\Classes\CGC0220\Module2\OOPDemo\OOPDemo\bin\Debug\netcoreapp3.1\OOPDemo.exe
+C:\CodeGym\Classes\CGC0220\Module2\OOPDemo\OOPDemo\bin\Debug\netcoreapp3.1\OOPDemo.deps.json
+C:\CodeGym\Classes\CGC0220\Module2\OOPDemo\OOPDemo\bin\Debug\netcoreapp3.1\OOPDemo.runtimeconfig.json
+C:\CodeGym\Classes\CGC0220\Module2\OOPDemo\OOPDemo\bin\Debug\netcoreapp3.1\OOPDemo.runtimeconfig.dev.json
+C:\CodeGym\Classes\CGC0220\Module2\OOPDemo\OOPDemo\bin\Debug\netcoreapp3.1\OOPDemo.dll
+C:\CodeGym\Classes\CGC0220\Module2\OOPDemo\OOPDemo\bin\Debug\netcoreapp3.1\OOPDemo.pdb
+C:\CodeGym\Classes\CGC0220\Module2\OOPDemo\OOPDemo\obj\Debug\netcoreapp3.1\OOPDemo.csprojAssemblyReference.cache
+C:\CodeGym\Classes\CGC0220\Module2\OOPDemo\OOPDemo\obj\Debug\netcoreapp3.1\OOPDemo.csproj.CoreCompileInputs.cache
+C:\CodeGym\Classes\CGC0220\Module2\OOPDemo\OOPDemo\obj\Debug\netcoreapp3.1\OOPDemo.AssemblyInfoInputs.cache
+C:\CodeGym\Classes\CGC0220\Module2\OOPDemo\OOPDemo\obj\Debug\netcoreapp3.1\OOPDemo.AssemblyInfo.cs
+C:\CodeGym\Classes\CGC0220\Module2\OOPDemo\OOPDemo\obj\Debug\netcoreapp3.1\OOPDemo.dll
+C:\CodeGym\Classes\CGC0220\Module2\OOPDemo\OOPDemo\obj\Debug\netcoreapp3.1\OOPDemo.pdb
+C:\CodeGym\Classes\CGC0220\Module2\OOPDemo\OOPDemo\obj\Debug\netcoreapp3.1\OOPDemo.genruntimeconfig.cache

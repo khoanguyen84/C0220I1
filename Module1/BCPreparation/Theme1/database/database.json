@@ -1,0 +1,33 @@
+{
+    "products" : [
+        {
+            "id" : 1,
+            "productName" : "Áo thun",
+            "price" : "200000",
+            "productImage" : "img/portfolio/01-thumbnail.jpg",
+            "description" : "Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo! Date: January 2017 Client: Lines Category: Branding"
+        },
+        {
+            "id" : 2,
+            "productName" : "Áo thun",
+            "price" : "200000",
+            "productImage" : "img/portfolio/02-thumbnail.jpg",
+            "description" : "Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo! Date: January 2017 Client: Lines Category: Branding"
+        },
+        {
+            "id" : 3,
+            "productName" : "Áo thun",
+            "price" : "200000",
+            "productImage" : "img/portfolio/03-thumbnail.jpg",
+            "description" : "Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo! Date: January 2017 Client: Lines Category: Branding"
+        },
+        {
+            "id" : 4,
+            "productName" : "Áo thun",
+            "price" : "200000",
+            "productImage" : "img/portfolio/04-thumbnail.jpg",
+            "description" : "Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo! Date: January 2017 Client: Lines Category: Branding"
+        }
+
+    ]
+}

@@ -1,0 +1,98 @@
+<html>
+
+<head></head>
+
+<body>
+
+    <table border="1">
+        <tr>
+            <td>
+                <p id="khoa"></p>
+            </td>
+            <td>
+                <p id="vu"></p>
+            </td>
+            <td>
+                <p id="food"></p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="button" value="eat" onclick="eatFood('khoa')">
+            </td>
+            <td>
+                <input type="button" value="eat" onclick="eatFood('vu')">
+            </td>
+        </tr>
+    </table>
+
+    <script>
+        function Person(fn, ln, a, w) {
+            this.firstName = fn;
+            this.lastName = ln;
+            this.age = a;
+            this.weight = w;
+
+            this.greeting = function () {
+                return "Fullname: " + this.firstName + " " + this.lastName
+                    + "<br>Age: " + this.age
+                    + "<br>Weight: " + this.weight;
+            }
+
+            this.eat = function (f) {
+                this.weight += 1;
+                f.decrement();
+            }
+        }
+
+        function Food(n, w) {
+            this.name = n;
+            this.weight = w;
+
+            this.decrement = function () {
+                this.weight -= 1;
+            }
+
+            this.greeting = function () {
+                return "Name: " + this.name +
+                    "<br>Weight: " + this.weight;
+            }
+        }
+
+        function getInfo(p, e) {
+            e.innerHTML = p.greeting();
+        }
+
+        function eatFood(name) {
+            switch (name) {
+                case 'khoa': {
+                    process(khoa, ga, document.getElementById("khoa"), document.getElementById("food"));
+                    break;
+                }
+                case 'vu': {
+                    process(vu, ga, document.getElementById("vu"), document.getElementById("food"));
+                    break;
+                }
+            }
+        }
+
+        function process(p, f, ep, fp) {
+            p.eat(f);
+            getInfo(p, ep);
+            getInfo(f, fp);
+        }
+
+        function main() {
+            getInfo(khoa, document.getElementById("khoa"));
+            getInfo(vu, document.getElementById("vu"));
+            getInfo(ga, document.getElementById("food"));
+        }
+        
+        let khoa = new Person("Khoa", "Nguyen", 18, 60);
+        let vu = new Person("Vu", "Inox", 18, 30);
+        let ga = new Food("Gà bóp", 20);
+        main();
+    </script>
+</body>
+
+</html>

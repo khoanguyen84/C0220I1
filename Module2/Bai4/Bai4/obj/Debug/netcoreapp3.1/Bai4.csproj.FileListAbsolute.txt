@@ -1,0 +1,13 @@
+C:\CodeGym\Classes\CGC0220\Module2\Bai4\Bai4\obj\Debug\netcoreapp3.1\Bai4.csprojAssemblyReference.cache
+C:\CodeGym\Classes\CGC0220\Module2\Bai4\Bai4\obj\Debug\netcoreapp3.1\Bai4.csproj.CoreCompileInputs.cache
+C:\CodeGym\Classes\CGC0220\Module2\Bai4\Bai4\obj\Debug\netcoreapp3.1\Bai4.AssemblyInfoInputs.cache
+C:\CodeGym\Classes\CGC0220\Module2\Bai4\Bai4\obj\Debug\netcoreapp3.1\Bai4.AssemblyInfo.cs
+C:\CodeGym\Classes\CGC0220\Module2\Bai4\Bai4\bin\Debug\netcoreapp3.1\Bai4.exe
+C:\CodeGym\Classes\CGC0220\Module2\Bai4\Bai4\bin\Debug\netcoreapp3.1\Bai4.deps.json
+C:\CodeGym\Classes\CGC0220\Module2\Bai4\Bai4\bin\Debug\netcoreapp3.1\Bai4.runtimeconfig.json
+C:\CodeGym\Classes\CGC0220\Module2\Bai4\Bai4\bin\Debug\netcoreapp3.1\Bai4.runtimeconfig.dev.json
+C:\CodeGym\Classes\CGC0220\Module2\Bai4\Bai4\bin\Debug\netcoreapp3.1\Bai4.dll
+C:\CodeGym\Classes\CGC0220\Module2\Bai4\Bai4\bin\Debug\netcoreapp3.1\Bai4.pdb
+C:\CodeGym\Classes\CGC0220\Module2\Bai4\Bai4\obj\Debug\netcoreapp3.1\Bai4.dll
+C:\CodeGym\Classes\CGC0220\Module2\Bai4\Bai4\obj\Debug\netcoreapp3.1\Bai4.pdb
+C:\CodeGym\Classes\CGC0220\Module2\Bai4\Bai4\obj\Debug\netcoreapp3.1\Bai4.genruntimeconfig.cache

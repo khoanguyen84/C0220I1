@@ -1,0 +1,13 @@
+C:\CodeGym\Classes\CGC0220\Module2\Bai4\MenuDemo\bin\Debug\netcoreapp3.1\MenuDemo.exe
+C:\CodeGym\Classes\CGC0220\Module2\Bai4\MenuDemo\bin\Debug\netcoreapp3.1\MenuDemo.deps.json
+C:\CodeGym\Classes\CGC0220\Module2\Bai4\MenuDemo\bin\Debug\netcoreapp3.1\MenuDemo.runtimeconfig.json
+C:\CodeGym\Classes\CGC0220\Module2\Bai4\MenuDemo\bin\Debug\netcoreapp3.1\MenuDemo.runtimeconfig.dev.json
+C:\CodeGym\Classes\CGC0220\Module2\Bai4\MenuDemo\bin\Debug\netcoreapp3.1\MenuDemo.dll
+C:\CodeGym\Classes\CGC0220\Module2\Bai4\MenuDemo\bin\Debug\netcoreapp3.1\MenuDemo.pdb
+C:\CodeGym\Classes\CGC0220\Module2\Bai4\MenuDemo\obj\Debug\netcoreapp3.1\MenuDemo.csprojAssemblyReference.cache
+C:\CodeGym\Classes\CGC0220\Module2\Bai4\MenuDemo\obj\Debug\netcoreapp3.1\MenuDemo.csproj.CoreCompileInputs.cache
+C:\CodeGym\Classes\CGC0220\Module2\Bai4\MenuDemo\obj\Debug\netcoreapp3.1\MenuDemo.AssemblyInfoInputs.cache
+C:\CodeGym\Classes\CGC0220\Module2\Bai4\MenuDemo\obj\Debug\netcoreapp3.1\MenuDemo.AssemblyInfo.cs
+C:\CodeGym\Classes\CGC0220\Module2\Bai4\MenuDemo\obj\Debug\netcoreapp3.1\MenuDemo.dll
+C:\CodeGym\Classes\CGC0220\Module2\Bai4\MenuDemo\obj\Debug\netcoreapp3.1\MenuDemo.pdb
+C:\CodeGym\Classes\CGC0220\Module2\Bai4\MenuDemo\obj\Debug\netcoreapp3.1\MenuDemo.genruntimeconfig.cache

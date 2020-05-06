@@ -1,0 +1,183 @@
+<html>
+    <head></head>
+    <body>
+        <script>
+            // Vòng for (biết trước được số lần lặp)
+
+            // for(let i = 1; i <= 10; i++){
+            //     document.write('i =' + i);
+            //     document.write("<br>");
+            // }
+
+            // for(let i = 1; i <= 10; i++){
+            //     if(i % 2 == 0){
+            //         document.write('i =' + i);
+            //         document.write("<br>");
+            //     }
+            // }
+
+            //let i = 1;
+            // document.write("Hiển thị đầy đủ");
+            
+            // for(let i = 1; i <= 10; i++){
+            //     document.write('i =' + i);
+            //     document.write("<br>");
+            // }
+            // document.write('i sau khi xong vòng lặp", i =' + i);
+            // document.write("<br>");
+
+            // document.write("Hiển thị các số chẵn");
+            // document.write("<br>");
+            // for(let i = 1; i <= 10; i++){
+            //     if(i % 2 == 0){
+            //         document.write('i =' + i);
+            //         document.write("<br>");
+            //     }
+            // }
+
+            // for(let i = 1; i <= 10; i+=2){
+            //     document.write('i =' + i);
+            //     document.write("<br>");
+            // }
+
+            //Vòng lặp while và do...while (chưa xác định được số lần lặp)
+            //vòng while thì kiểm tra đk rồi mới thực hiện --> có ít nhất 0 lần lặp
+            //vòng lặp do...while thì thực hiện rồi mới kiểm tra đk --> có ít nhất 1 lần lặp
+
+            // let i = 11;
+            // while(i <= 10){
+            //     document.write('i =' + i);
+            //     document.write("<br>");
+            //     i+=1;
+            // }
+
+            // let j = 11;
+            // do{
+            //     j+=1;
+            //     document.write('j =' + j);
+            //     document.write("<br>");
+            // }
+            // while(j<= 10)
+
+            //10 x 10 lần
+            // for(let i = 1; i<=10; i++){
+            //     for(let j = 1; j<=10; j++){
+            //         document.write(j + "x" + i +" = " + (i*j) + "\t");
+            //     }
+            //     document.write("<br>")
+            // }
+
+            // let bcc = "<table border='1'>";
+            
+            // for(let i = 1; i<=100; i++){
+            //     bcc = bcc + "<tr>";
+            //     for(let j = 1; j<=100; j++){
+            //         bcc = bcc + "<td>" + (j + "x" + i +" = " + (i*j)) + "</td>";
+            //     }
+            //     bcc = bcc + "</tr>";
+            // }
+            // bcc = bcc + "</table>";
+
+            // document.write(bcc);
+
+            //có nên sử dụng nhiều vòng lặp lồng nhau hay không?
+            //vẫn phái có
+            //bao nhiêu?
+            // Độ phức tạp của thuật toán
+
+            //10 x 10 x 10 => 10^2
+            // for(let i = 0 ; i< 10; i++){
+            //     for(let j = 0 ; j< 10; j++){
+            //         for(let k = 0 ; k< 10; k++){
+
+            //         }
+            //     }
+            // }
+
+            //10 x 10
+            // for(let i = 0 ; i< 10; i++){
+            //     for(let j = 0 ; j< 10; j++){
+                    
+            //     }
+            // }
+            //10
+            // for(let k = 0 ; k< 10; k++){
+
+            // }
+
+            //10^2 
+
+            //liệu các vòng khác nhau có thể lồng nhau không?
+            // được
+
+            // let i =1;
+            // while(i<= 10){
+            //     for(let j = 1; j<= 10; j++){
+            //         document.write('i x i =' + (j*i));
+            //         document.write("<br>");
+            //     }
+            //     i+=1;
+            //     document.write("<br>");
+            // }
+
+            // let i =1;
+            // while(i<= 10){
+            //     let j = 1
+            //     do{
+            //         document.write('j x i =' + (j*i));
+            //         document.write("<br>");
+            //         j+=1;
+            //     }
+            //     while(j<=10)
+
+            //     i+=1;
+            //     document.write("<br>");
+            // }
+
+            // let i =1;
+            // while(i<= 10){
+            //     console.log(i);
+            //     i+=1;
+            // }
+
+            // let number = 2;
+            // let count = 0;
+
+            // while(count < 20){
+            //     let total = 0;
+            //     for(let i=2; i<= number/2; i++){
+            //         if(number%i == 0 ){
+            //             total += 1;
+            //             break;
+            //         }
+            //     }
+            //     if(total == 0){
+            //         document.write(number);
+            //         document.write("<br>");
+            //         count+=1;
+            //     }
+            //     number+=1;
+            // }
+
+            // for(let i = 1; i<= 10; i++){
+            //     document.write(i);
+            //     document.write("<br>");
+            //     if(i%5 == 0){
+            //         break;
+            //     }
+            // }
+
+            for(let i = 1; i<= 10; i++){
+                if(i%2 == 0){
+                    continue;
+                }
+                document.write(i);
+                document.write("<br>");
+            }
+
+            //break -> thoát ra khỏi vòng lặp, tại vị trí thỏa mãn đk
+            //continue -> bỏ quả bước lặp hiện tại, và thực thực bước lặp tiếp theo
+
+        </script>   
+    </body>
+</html>

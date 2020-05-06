@@ -1,0 +1,169 @@
+<html>
+    <head>
+        <style>
+            table,tr,td{
+                border-collapse: collapse;
+                border: 1px solid red;
+                padding: 5px;
+            }
+            input, select{
+                padding: 5px;
+            }
+        </style>
+    </head>
+    <body>
+        <table>
+            <tr>
+                <td>Tiền lương:</td>
+                <td>
+                    <input type="text" name="luong" id="luong" autofocus placeholder="tiền lương">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Phụ cấp:   
+                </td>
+                <td>
+                    <select name="phuCap" id="phuCap">
+                        <option value="0" disabled>Chọn một loại phụ cấp</option>
+                        <option value="1">Chức vụ</option>
+                        <option value="2">Ăn trưa</option>
+                        <option value="3">Xăng xe</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Tiền thuế:
+                </td>
+                <td>
+                    <!-- <p id="thue"></p> -->
+                    <input type="text" disabled id="thue">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Thực nhận:
+                </td>
+                <td>
+                    <!-- <p id="thucNhan"></p> -->
+                    <input type="text" disabled id="thucNhan">
+                </td>
+            </tr>
+            
+            <tr>
+                <td colspan="2">
+                    <input type="button" onclick="xuly2()" value="Xử lý">
+                </td>
+            </tr>
+        </table>
+
+        <script>
+            function xuly(){
+                let luong = parseInt(document.getElementById("luong").value);
+                let thue = 0;
+                let thucNhan = 0;
+                if(luong >=80){
+                    thue = luong*0.35;
+                    thucNhan = luong - thue;
+                }
+                else if(luong>=52){
+                    thue = luong*0.3;
+                    thucNhan = luong - thue;
+                }
+                else if(luong >=32){
+                    thue = luong*0.25;
+                    thucNhan = luong - thue;
+                }
+                else if(luong >=18){
+                    thue = luong*0.2;
+                    thucNhan = luong - thue;
+                }
+                else if(luong >= 10){
+                    thue = luong*0.15;
+                    thucNhan = luong - thue;
+                }
+                else if(luong >=5){
+                    thue = luong*0.1;
+                    thucNhan = luong - thue;
+                }
+                else{
+                    thue = luong*0.05;
+                    thucNhan = luong - thue;
+                }
+                document.getElementById("thue").value = thue;
+                document.getElementById("thucNhan").value = thucNhan;
+            }
+
+            function xuly2(){
+                let luong = parseInt(document.getElementById("luong").value);
+                let thue = 0;
+                let thucNhan = 0;
+                let muc = 1;
+                if(luong >=80){
+                    muc = 7;
+                }
+                else if(luong>=52){
+                    muc = 6;
+                }
+                else if(luong >=32){
+                    muc = 5;
+                }
+                else if(luong >=18){
+                    muc = 4;
+                }
+                else if(luong >= 10){
+                    muc = 3;
+                }
+                else if(luong >=5){
+                    muc = 2;
+                }
+                else{
+                    muc = 1;
+                }
+
+                switch(muc){
+                    case 1:{
+                        thue = luong*0.05;
+                        thucNhan = luong - thue;
+                        break;
+                    }
+                    case 2:{
+                        thue = luong*0.1;
+                        thucNhan = luong - thue;
+                        break;
+                    }
+                    case 3:{
+                        thue = luong*0.15;
+                        thucNhan = luong - thue;
+                        break;
+                    }
+                    case 4:{
+                        thue = luong*0.2;
+                        thucNhan = luong - thue;
+                        break;
+                    }
+                    case 5:{
+                        thue = luong*0.25;
+                        thucNhan = luong - thue;
+                        break;
+                    }
+                    case 6:{
+                        thue = luong*0.3;
+                        thucNhan = luong - thue;
+                        break;
+                    }
+                    default:{
+                        thue = luong*0.35;
+                        thucNhan = luong - thue;
+                        break;
+                    }
+                }
+                // document.getElementById("thue").innerHTML = thue;
+                // document.getElementById("thucNhan").innerHTML = thucNhan;
+                document.getElementById("thue").value = thue;
+                document.getElementById("thucNhan").value = thucNhan;
+            }
+        </script>
+    </body>
+</html>

@@ -1,0 +1,77 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+        <script>
+            class Person{
+                constructor(n, a, g){
+                    this.name = n;
+                    this.age = a;
+                    this.gender = g;
+                }
+
+                greeting(){
+                    return "My name is " + this.name +
+                            ", I am " + this.age + " years old" +
+                            ", and I am " + this.gender;
+                }
+
+                isAdult(){
+                    return this.age >= 18 ? "Yes" : "Not Yet";
+                }
+
+                static breathe(){
+                    return "still breathe still alive";
+                }
+
+            }
+
+            class Student extends Person{
+                constructor(n, a, g, e){
+                    super(n , a, g);
+                    this.email = e;
+                }
+
+                greeting(){
+                    return super.greeting() + 
+                            ", My email is " + this.email;
+                }
+
+                isAdult(){
+                    return this.age >= 25 ? "should married" : "FA";
+                }
+
+                showEmail(){
+                    return this.email;
+                }
+            }
+
+            class Master extends Student{
+                constructor(n, a, g, e, p){
+                    super(n, a, g, e);
+                    this.phone = p;
+                }
+
+                greeting(){
+                    return super.greeting() + 
+                            ", My phone number is " + this.phone;
+                }
+            }
+
+            let khoa = new Person("Khoa Nguyễn", 37, "Male");
+            document.write(khoa.greeting() + "<br>");
+            document.write(khoa.isAdult() + "<br>");
+            document.write(Person.breathe() + "<br>");
+            
+
+            let vu = new Student("Vũ Nhôm", 18, "Male", "vu.nhom@tutoi.com");
+            document.write(vu.greeting() + "<br>");
+            document.write(vu.isAdult() + "<br>");
+            document.write(vu.showEmail() + "<br>");
+
+            let thuong = new Master("Siêu Nhân Phi Thường", 18, "Male", "thuong@sieunhan.com", "0123456789");
+            document.write(thuong.greeting() + "<br>");
+        </script>        
+    </body>
+</html>

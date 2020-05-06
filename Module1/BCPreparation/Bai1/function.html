@@ -1,0 +1,82 @@
+<html>
+    <head>
+        
+    </head>
+    <body>
+        <div id="matrix">
+
+        </div>
+        <p id="total"></p>
+        <h1 id="result"></h1>
+        <script>
+            main();
+            function main(){
+                let row = enterNumber();
+                let col = enterNumber();
+                let matrix = generateMatrix(row, col);
+                let pinter = printMatrix(matrix, row, col);
+                console.log(row);
+                let total = totalMatrix(matrix, row, col);
+                document.write(pinter);
+                document.write(total);
+            }
+            function enterNumber(){
+                let n = 0;
+                n = +prompt("enter your number:");
+                return n;
+            }
+
+            function generateMatrix(row, column){
+                let matrix = [];
+                for(let i=0; i< row; i++){
+                    let arr=[];
+                    for(let j=0; j<column; j++){
+                        arr[j] = Math.floor(Math.random()*10 + 1);
+                    }
+                    matrix[i] = arr;
+                }
+                return matrix;
+            }
+
+            function printMatrix(matrix, row, col){
+                let show ="<table border=1>";
+                for(let i=0;i<row;i++){
+                    show += "<tr>";
+                    for(let j=0;j <col; j++){
+                        show += "<td>" + matrix[i][j] + "</td>";
+                    }
+                    show += "</tr>";
+                }
+                show += "</table>";
+
+                // document.write(show);
+                return show;
+            }
+
+            function totalMatrix(matrix, row, col){
+                let total = 0;
+                for(let i=0;i<row;i++){
+                    for(let j=0;j <col; j++){
+                        total += matrix[i][j];
+                    }
+                }
+                //document.write(total);
+                return total;
+            }
+
+            function totalMatrix(matrix){
+                let row1 = matrix.length;
+                let col = matrix[0].length;
+                let total = 0;
+                
+                for(let i=0;i<row;i++){
+                    for(let j=0;j <col; j++){
+                        total += matrix[i][j];
+                    }
+                }
+                //document.write(total);
+                return total;
+            }
+        </script>
+    </body>
+</html>

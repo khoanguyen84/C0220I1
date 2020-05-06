@@ -1,0 +1,149 @@
+<html>
+
+<head>
+    <style>
+        table {
+            border: 1px solid red;
+            width: 500px;
+        }
+
+        table,
+        tr,
+        td {
+            border: 1px solid red;
+            border-collapse: collapse;
+        }
+
+        td {
+            width: 50%;
+            vertical-align: top;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <tr>
+            <td>
+                <h3 id="senderName"></h3>
+                <h4 id="senderBattery"></h4>
+                <input type="button" value="Charge" onclick="charge(6)"> <br>
+                <input type="text" id="senderText">
+                <input type="button" value="Send" onclick="sendMessage(6)">
+            </td>
+            <td>
+                <h3 id="reciverName"></h3>
+                <h4 id="reciverBattery"></h4>
+                <input type="button" value="Charge" onclick="charge(7)"> <br>
+                <input type="text" id="reciverText">
+                <input type="button" value="Send" onclick="sendMessage(7)">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p id="senderMsg"></p>
+            </td>
+            <td>
+                <p id="reciverMsg"></p>
+            </td>
+        </tr>
+    </table>
+
+    <script>
+        class Phone {
+            constructor(n, b) {
+                this.name = n;
+                this.battery = b;
+                this.inbox = [];
+                this.sent = [];
+            }
+
+            sendMessage(reciver, msg) {
+                this.sent.push(msg);
+                reciver.inbox.push(msg);
+                this.battery -= 1;
+            }
+
+            showInbox() {
+                return this.inbox;
+            }
+
+            showSent() {
+                return this.sent;
+            }
+
+            getName() {
+                return this.name;
+            }
+
+            getBattery() {
+                return this.battery;
+            }
+
+            checkStatus() {
+                return this.battery >1;
+            }
+
+            charge() {
+                this.battery = 100;
+            }
+        }
+
+        let ip6 = new Phone("IP 6", 100);
+        let ip7 = new Phone("IP 7", 100);
+
+        document.getElementById("senderName").innerHTML = "Name: " + ip6.getName();
+        document.getElementById("reciverName").innerHTML = "Name: " + ip7.getName();
+        document.getElementById("senderBattery").innerHTML = "Battery: " + ip6.getBattery();
+        document.getElementById("reciverBattery").innerHTML = "Battery: " + ip7.getBattery();
+
+        function sendMessage(device) {
+            let msg = "";
+            switch (device) {
+                case 6: {
+                    if (ip6.checkStatus()) {
+                        msg = document.getElementById("senderText").value;
+                        ip6.sendMessage(ip7, msg);
+                        document.getElementById("senderText").value = "";
+                        document.getElementById("senderMsg").innerHTML = ip6.showSent().join("<br>");
+                        document.getElementById("senderBattery").innerHTML = "Battery: " + ip6.getBattery();
+                    }
+                    else {
+                        document.getElementById("senderBattery").innerHTML = "Battery is empty ";
+                    }
+
+                    break;
+                }
+                case 7: {
+                    if (ip7.checkStatus()) {
+                        msg = document.getElementById("reciverText").value;
+                        ip7.sendMessage(ip6, msg);
+                        document.getElementById("reciverText").value = "";
+                        document.getElementById("reciverMsg").innerHTML = ip7.showSent().join("<br>");
+                        document.getElementById("reciverBattery").innerHTML = "Battery: " + ip7.getBattery();
+                    }
+                    else{
+                        document.getElementById("reciverBattery").innerHTML = "Battery is empty";
+                    }
+                    break;
+                }
+            }
+        }
+        function charge(device) {
+            switch (device) {
+                case 6: {
+                    ip6.charge();
+                    document.getElementById("senderBattery").innerHTML = "Battery: " + ip6.getBattery();
+                    break;
+                }
+                case 7: {
+                    ip7.charge();
+                    document.getElementById("reciverBattery").innerHTML = "Battery: " + ip7.getBattery();
+                    break;
+                }
+            }
+        }
+    </script>
+</body>
+
+</html>

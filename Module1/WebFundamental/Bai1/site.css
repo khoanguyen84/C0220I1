@@ -1,0 +1,148 @@
+label{
+    color: red !important;
+}
+.lb2{
+    color: yellow !important;
+}
+#fnId{
+    color: yellowgreen !important;
+    background-color: pink;
+}
+body{
+    /* background-image: url('images/b1.jpg'); */
+    /* background-color: green; */
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-position: 50px 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+*{
+    padding: 0px;
+    margin: 0px;
+}
+table, tr, th, td{
+    padding: 10px;
+    border: 1px solid red;
+
+    border-width: 1px;
+    border-style: dashed;
+    border-color: red;
+    border-collapse: collapse;
+}
+
+#d1{
+    width: 100px;
+    background-color: green;
+    color: white;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 10px 0px;
+}
+
+#d2{
+    width: 100px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+#d2 ul{
+    list-style: none;
+}
+
+#d2 ul li{
+    width: 100%;
+    background-color: green;
+    padding: 10px;
+    margin-bottom: 1px;
+    border-radius: 10px 0px;
+    position: relative;
+}
+
+#d2 ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+#d2 ul li:hover{
+    background-color: darkgreen;
+}
+
+#d2 ul li ul{
+    display: none;
+    position: absolute;
+}
+
+#d2 ul li ul li{
+    width: 100px;
+    background-color: darkgreen;
+}
+
+#d2 ul li ul li:hover{
+    width: 100px;
+    background-color: green;
+}
+
+
+#d2 ul li:hover ul{
+    display: block;
+    top:0px;
+    left: 120px;
+}
+
+/*  */
+
+#d3{
+    width: 500px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    border: 1px solid red;
+}
+
+#d3 ul{
+    list-style: none;
+}
+
+#d3 ul li{
+    width: 20%;
+    background-color: green;
+    padding: 10px;
+    margin-right: 1px;
+    border-radius: 2px;
+    position: relative;
+    float: left;
+}
+
+#d3 ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+#d3 ul li:hover{
+    background-color: darkgreen;
+}
+
+#d3 ul li ul{
+    display: none;
+    position: absolute;
+}
+
+#d3 ul li ul li{
+    width: 100px;
+    background-color: darkgreen;
+    margin-bottom: 1px;
+}
+
+#d3 ul li ul li:hover{
+    width: 100px;
+    background-color: green;
+}
+
+
+#d3 ul li:hover ul{
+    display: block;
+    top: 40px;
+    left: 0px;
+}

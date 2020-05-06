@@ -1,0 +1,13 @@
+C:\CodeGym\Classes\CGC0220\Module2\Bai2\Bai2\bin\Release\netcoreapp3.1\Bai2.exe
+C:\CodeGym\Classes\CGC0220\Module2\Bai2\Bai2\bin\Release\netcoreapp3.1\Bai2.deps.json
+C:\CodeGym\Classes\CGC0220\Module2\Bai2\Bai2\bin\Release\netcoreapp3.1\Bai2.runtimeconfig.json
+C:\CodeGym\Classes\CGC0220\Module2\Bai2\Bai2\bin\Release\netcoreapp3.1\Bai2.runtimeconfig.dev.json
+C:\CodeGym\Classes\CGC0220\Module2\Bai2\Bai2\bin\Release\netcoreapp3.1\Bai2.dll
+C:\CodeGym\Classes\CGC0220\Module2\Bai2\Bai2\bin\Release\netcoreapp3.1\Bai2.pdb
+C:\CodeGym\Classes\CGC0220\Module2\Bai2\Bai2\obj\Release\netcoreapp3.1\Bai2.csprojAssemblyReference.cache
+C:\CodeGym\Classes\CGC0220\Module2\Bai2\Bai2\obj\Release\netcoreapp3.1\Bai2.csproj.CoreCompileInputs.cache
+C:\CodeGym\Classes\CGC0220\Module2\Bai2\Bai2\obj\Release\netcoreapp3.1\Bai2.AssemblyInfoInputs.cache
+C:\CodeGym\Classes\CGC0220\Module2\Bai2\Bai2\obj\Release\netcoreapp3.1\Bai2.AssemblyInfo.cs
+C:\CodeGym\Classes\CGC0220\Module2\Bai2\Bai2\obj\Release\netcoreapp3.1\Bai2.dll
+C:\CodeGym\Classes\CGC0220\Module2\Bai2\Bai2\obj\Release\netcoreapp3.1\Bai2.pdb
+C:\CodeGym\Classes\CGC0220\Module2\Bai2\Bai2\obj\Release\netcoreapp3.1\Bai2.genruntimeconfig.cache

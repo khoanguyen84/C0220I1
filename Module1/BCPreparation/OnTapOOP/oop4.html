@@ -1,0 +1,142 @@
+<html>
+
+<head>
+
+</head>
+
+<body>
+    <table border="1">
+        <tr>
+            <td colspan="2">
+                <p id="msg"></p>
+            </td>
+        </tr>
+        <tr>
+            <td>Name</td>
+            <td>
+                <input type="text" id="name">
+            </td>
+        </tr>
+        <tr>
+            <td>Phone number</td>
+            <td>
+                <input type="text" id="phone">
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <h4>My Phone Book</h4>
+                <p id="phonebook"></p>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <input type="button" value="Add" onclick="add()">
+                <input type="button" value="Update" onclick="update()">
+                <input type="button" value="Remove()" onclick="remove()">
+            </td>
+        </tr>
+    </table>
+    <script>
+        class Contact {
+            constructor(n, p) {
+                this.name = n;
+                this.phoneNumber = p;
+            }
+            showContact() {
+                return "Name: " + this.name + ", Phone number: " + this.phoneNumber;
+            }
+        }
+
+        class PhoneBook {
+            constructor() {
+                this.ContactList = [];
+            }
+
+            add(contact) {
+                this.ContactList.push(contact);
+            }
+
+            check(name) {
+                for (let i = 0; i < this.ContactList.length; i++) {
+                    if (this.ContactList[i].name.toLowerCase() == name.toLowerCase()) {
+                        return i;
+                    }
+                }
+                return -1;
+            }
+
+            update(name, newPhone) {
+                let pos = this.check(name);
+                if (pos != -1) {
+                    this.ContactList[pos].phoneNumber = newPhone;
+                }
+            }
+
+            delete(name) {
+                let pos = this.check(name)
+                if (pos != -1)
+                    this.ContactList.splice(pos, 1);
+            }
+
+            show() {
+                let print = "";
+                for (let i = 0; i < this.ContactList.length; i++) {
+                    print += this.ContactList[i].showContact() + "<br>";
+                }
+                return print;
+            }
+        }
+
+        let pb = new PhoneBook();
+
+        function add() {
+            let name = document.getElementById("name").value;
+            let phone = document.getElementById("phone").value;
+            if ((name != "") && (phone != "")) {
+                let ct = new Contact(name, phone);
+                pb.add(ct);
+                reset();
+                document.getElementById("phonebook").innerHTML = pb.show();
+                document.getElementById("msg").innerHTML = "Contact has been added successfully";
+            }
+            else {
+                document.getElementById("msg").innerHTML = "name or phone should not null";
+            }
+        }
+
+        function update() {
+            let name = document.getElementById("name").value;
+            let phone = document.getElementById("phone").value;
+            if ((name != "") && (phone != "")) {
+                pb.update(name, phone);
+                reset();
+                document.getElementById("phonebook").innerHTML = pb.show();
+                document.getElementById("msg").innerHTML = "Contact has been updated successfully";
+            }
+            else {
+                document.getElementById("msg").innerHTML = "name or new phone should not null";
+            }
+        }
+
+        function remove() {
+            let name = document.getElementById("name").value;
+            if (name != "") {
+                pb.delete(name);
+                reset();
+                document.getElementById("phonebook").innerHTML = pb.show();
+                document.getElementById("msg").innerHTML = "Contact has been deleted successfully";
+            }
+            else{
+                document.getElementById("msg").innerHTML = "name should not null";
+            }
+        }
+
+        function reset() {
+            document.getElementById("name").value = "";
+            document.getElementById("phone").value = "";
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,13 @@
+C:\CodeGym\Classes\CGC0220\Module2\ArrayDemo\ArrayDemo\bin\Debug\netcoreapp3.1\ArrayDemo.exe
+C:\CodeGym\Classes\CGC0220\Module2\ArrayDemo\ArrayDemo\bin\Debug\netcoreapp3.1\ArrayDemo.deps.json
+C:\CodeGym\Classes\CGC0220\Module2\ArrayDemo\ArrayDemo\bin\Debug\netcoreapp3.1\ArrayDemo.runtimeconfig.json
+C:\CodeGym\Classes\CGC0220\Module2\ArrayDemo\ArrayDemo\bin\Debug\netcoreapp3.1\ArrayDemo.runtimeconfig.dev.json
+C:\CodeGym\Classes\CGC0220\Module2\ArrayDemo\ArrayDemo\bin\Debug\netcoreapp3.1\ArrayDemo.dll
+C:\CodeGym\Classes\CGC0220\Module2\ArrayDemo\ArrayDemo\bin\Debug\netcoreapp3.1\ArrayDemo.pdb
+C:\CodeGym\Classes\CGC0220\Module2\ArrayDemo\ArrayDemo\obj\Debug\netcoreapp3.1\ArrayDemo.csprojAssemblyReference.cache
+C:\CodeGym\Classes\CGC0220\Module2\ArrayDemo\ArrayDemo\obj\Debug\netcoreapp3.1\ArrayDemo.csproj.CoreCompileInputs.cache
+C:\CodeGym\Classes\CGC0220\Module2\ArrayDemo\ArrayDemo\obj\Debug\netcoreapp3.1\ArrayDemo.AssemblyInfoInputs.cache
+C:\CodeGym\Classes\CGC0220\Module2\ArrayDemo\ArrayDemo\obj\Debug\netcoreapp3.1\ArrayDemo.AssemblyInfo.cs
+C:\CodeGym\Classes\CGC0220\Module2\ArrayDemo\ArrayDemo\obj\Debug\netcoreapp3.1\ArrayDemo.dll
+C:\CodeGym\Classes\CGC0220\Module2\ArrayDemo\ArrayDemo\obj\Debug\netcoreapp3.1\ArrayDemo.pdb
+C:\CodeGym\Classes\CGC0220\Module2\ArrayDemo\ArrayDemo\obj\Debug\netcoreapp3.1\ArrayDemo.genruntimeconfig.cache

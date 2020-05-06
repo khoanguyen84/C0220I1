@@ -1,0 +1,80 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "productName": "IP 6s",
+      "productImage": "imgs/ip6.png",
+      "price": "3000000",
+      "manufactory": "Korea",
+      "description": "Korea"
+    },
+    {
+      "productName": "IP 8s",
+      "productImage": "imgs/ip6.png",
+      "price": "9500000",
+      "manufactory": "Korea",
+      "description": "Korea",
+      "id": 3
+    },
+    {
+      "productName": "IP Xs",
+      "productImage": "imgs/ip6.png",
+      "price": "18000000",
+      "manufactory": "ThaiLand",
+      "description": "ThaiLand",
+      "id": 4
+    },
+    {
+      "productName": "IP 11",
+      "productImage": "imgs/ip6.png",
+      "price": "25000000",
+      "manufactory": "Viet Nam",
+      "description": "Viet Nam",
+      "id": 5
+    },
+    {
+      "productName": "IP4S",
+      "productImage": "imgs/ip6.png",
+      "price": "2500000",
+      "manufactory": "Korea",
+      "description": "ThaiLand",
+      "id": 6
+    },
+    {
+      "productName": "IP4",
+      "productImage": "imgs/ip6.png",
+      "price": "3500000",
+      "manufactory": "Japan",
+      "description": "Korea",
+      "id": 7
+    },
+    {
+      "productName": "IP 8",
+      "productImage": "imgs/ip6.png",
+      "price": "10000000",
+      "manufactory": "ThaiLand",
+      "description": "Japan",
+      "id": 8
+    },
+    {
+      "productName": "IP 11",
+      "productImage": "imgs/ip6.png",
+      "price": "23000000",
+      "manufactory": "ThaiLand",
+      "description": "ThaiLand",
+      "id": 9
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "username": "khoa.nguyen@codegym.vn",
+      "password": "Asdf1234!"
+    },
+    {
+      "id": "2",
+      "username": "khoa.nguyen+1@codegym.vn",
+      "password": "Asdf1234!"
+    }
+  ]
+}
