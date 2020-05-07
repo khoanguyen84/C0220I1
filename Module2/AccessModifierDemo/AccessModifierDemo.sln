@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29920.165
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccessModifierDemo", "AccessModifierDemo\AccessModifierDemo.csproj", "{1418022F-422C-4904-B252-E8D51F37F25F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practical1", "Practical1\Practical1.csproj", "{23160AF2-9902-49B6-847B-F2CEF7869A50}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1418022F-422C-4904-B252-E8D51F37F25F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1418022F-422C-4904-B252-E8D51F37F25F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1418022F-422C-4904-B252-E8D51F37F25F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1418022F-422C-4904-B252-E8D51F37F25F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23160AF2-9902-49B6-847B-F2CEF7869A50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23160AF2-9902-49B6-847B-F2CEF7869A50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23160AF2-9902-49B6-847B-F2CEF7869A50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23160AF2-9902-49B6-847B-F2CEF7869A50}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {58FCF217-B8DE-409F-B253-11AE6A78B728}
+	EndGlobalSection
+EndGlobal

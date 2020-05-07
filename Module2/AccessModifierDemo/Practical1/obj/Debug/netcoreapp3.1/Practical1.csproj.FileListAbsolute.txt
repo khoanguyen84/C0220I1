@@ -1,0 +1,13 @@
+C:\CodeGym\Classes\CGC0220\Module2\AccessModifierDemo\Practical1\bin\Debug\netcoreapp3.1\Practical1.exe
+C:\CodeGym\Classes\CGC0220\Module2\AccessModifierDemo\Practical1\bin\Debug\netcoreapp3.1\Practical1.deps.json
+C:\CodeGym\Classes\CGC0220\Module2\AccessModifierDemo\Practical1\bin\Debug\netcoreapp3.1\Practical1.runtimeconfig.json
+C:\CodeGym\Classes\CGC0220\Module2\AccessModifierDemo\Practical1\bin\Debug\netcoreapp3.1\Practical1.runtimeconfig.dev.json
+C:\CodeGym\Classes\CGC0220\Module2\AccessModifierDemo\Practical1\bin\Debug\netcoreapp3.1\Practical1.dll
+C:\CodeGym\Classes\CGC0220\Module2\AccessModifierDemo\Practical1\bin\Debug\netcoreapp3.1\Practical1.pdb
+C:\CodeGym\Classes\CGC0220\Module2\AccessModifierDemo\Practical1\obj\Debug\netcoreapp3.1\Practical1.csprojAssemblyReference.cache
+C:\CodeGym\Classes\CGC0220\Module2\AccessModifierDemo\Practical1\obj\Debug\netcoreapp3.1\Practical1.csproj.CoreCompileInputs.cache
+C:\CodeGym\Classes\CGC0220\Module2\AccessModifierDemo\Practical1\obj\Debug\netcoreapp3.1\Practical1.AssemblyInfoInputs.cache
+C:\CodeGym\Classes\CGC0220\Module2\AccessModifierDemo\Practical1\obj\Debug\netcoreapp3.1\Practical1.AssemblyInfo.cs
+C:\CodeGym\Classes\CGC0220\Module2\AccessModifierDemo\Practical1\obj\Debug\netcoreapp3.1\Practical1.dll
+C:\CodeGym\Classes\CGC0220\Module2\AccessModifierDemo\Practical1\obj\Debug\netcoreapp3.1\Practical1.pdb
+C:\CodeGym\Classes\CGC0220\Module2\AccessModifierDemo\Practical1\obj\Debug\netcoreapp3.1\Practical1.genruntimeconfig.cache
