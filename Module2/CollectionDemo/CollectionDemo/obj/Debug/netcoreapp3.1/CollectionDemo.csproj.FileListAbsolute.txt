@@ -1,0 +1,13 @@
+C:\CodeGym\Class\C0220I1\C0220I1\Module2\CollectionDemo\CollectionDemo\bin\Debug\netcoreapp3.1\CollectionDemo.exe
+C:\CodeGym\Class\C0220I1\C0220I1\Module2\CollectionDemo\CollectionDemo\bin\Debug\netcoreapp3.1\CollectionDemo.deps.json
+C:\CodeGym\Class\C0220I1\C0220I1\Module2\CollectionDemo\CollectionDemo\bin\Debug\netcoreapp3.1\CollectionDemo.runtimeconfig.json
+C:\CodeGym\Class\C0220I1\C0220I1\Module2\CollectionDemo\CollectionDemo\bin\Debug\netcoreapp3.1\CollectionDemo.runtimeconfig.dev.json
+C:\CodeGym\Class\C0220I1\C0220I1\Module2\CollectionDemo\CollectionDemo\bin\Debug\netcoreapp3.1\CollectionDemo.dll
+C:\CodeGym\Class\C0220I1\C0220I1\Module2\CollectionDemo\CollectionDemo\bin\Debug\netcoreapp3.1\CollectionDemo.pdb
+C:\CodeGym\Class\C0220I1\C0220I1\Module2\CollectionDemo\CollectionDemo\obj\Debug\netcoreapp3.1\CollectionDemo.csprojAssemblyReference.cache
+C:\CodeGym\Class\C0220I1\C0220I1\Module2\CollectionDemo\CollectionDemo\obj\Debug\netcoreapp3.1\CollectionDemo.csproj.CoreCompileInputs.cache
+C:\CodeGym\Class\C0220I1\C0220I1\Module2\CollectionDemo\CollectionDemo\obj\Debug\netcoreapp3.1\CollectionDemo.AssemblyInfoInputs.cache
+C:\CodeGym\Class\C0220I1\C0220I1\Module2\CollectionDemo\CollectionDemo\obj\Debug\netcoreapp3.1\CollectionDemo.AssemblyInfo.cs
+C:\CodeGym\Class\C0220I1\C0220I1\Module2\CollectionDemo\CollectionDemo\obj\Debug\netcoreapp3.1\CollectionDemo.dll
+C:\CodeGym\Class\C0220I1\C0220I1\Module2\CollectionDemo\CollectionDemo\obj\Debug\netcoreapp3.1\CollectionDemo.pdb
+C:\CodeGym\Class\C0220I1\C0220I1\Module2\CollectionDemo\CollectionDemo\obj\Debug\netcoreapp3.1\CollectionDemo.genruntimeconfig.cache

@@ -1,0 +1,13 @@
+C:\CodeGym\Class\C0220I1\C0220I1\Module2\InheritDemo\InheritDemo\obj\Debug\netcoreapp3.1\InheritDemo.csprojAssemblyReference.cache
+C:\CodeGym\Class\C0220I1\C0220I1\Module2\InheritDemo\InheritDemo\obj\Debug\netcoreapp3.1\InheritDemo.csproj.CoreCompileInputs.cache
+C:\CodeGym\Class\C0220I1\C0220I1\Module2\InheritDemo\InheritDemo\obj\Debug\netcoreapp3.1\InheritDemo.AssemblyInfoInputs.cache
+C:\CodeGym\Class\C0220I1\C0220I1\Module2\InheritDemo\InheritDemo\obj\Debug\netcoreapp3.1\InheritDemo.AssemblyInfo.cs
+C:\CodeGym\Class\C0220I1\C0220I1\Module2\InheritDemo\InheritDemo\bin\Debug\netcoreapp3.1\InheritDemo.exe
+C:\CodeGym\Class\C0220I1\C0220I1\Module2\InheritDemo\InheritDemo\bin\Debug\netcoreapp3.1\InheritDemo.deps.json
+C:\CodeGym\Class\C0220I1\C0220I1\Module2\InheritDemo\InheritDemo\bin\Debug\netcoreapp3.1\InheritDemo.runtimeconfig.json
+C:\CodeGym\Class\C0220I1\C0220I1\Module2\InheritDemo\InheritDemo\bin\Debug\netcoreapp3.1\InheritDemo.runtimeconfig.dev.json
+C:\CodeGym\Class\C0220I1\C0220I1\Module2\InheritDemo\InheritDemo\bin\Debug\netcoreapp3.1\InheritDemo.dll
+C:\CodeGym\Class\C0220I1\C0220I1\Module2\InheritDemo\InheritDemo\bin\Debug\netcoreapp3.1\InheritDemo.pdb
+C:\CodeGym\Class\C0220I1\C0220I1\Module2\InheritDemo\InheritDemo\obj\Debug\netcoreapp3.1\InheritDemo.dll
+C:\CodeGym\Class\C0220I1\C0220I1\Module2\InheritDemo\InheritDemo\obj\Debug\netcoreapp3.1\InheritDemo.pdb
+C:\CodeGym\Class\C0220I1\C0220I1\Module2\InheritDemo\InheritDemo\obj\Debug\netcoreapp3.1\InheritDemo.genruntimeconfig.cache
