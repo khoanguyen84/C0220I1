@@ -1,0 +1,13 @@
+C:\CodeGym\Class\C0220I1\C0220I1\Module2\GenericDemo\PhoneManagement\bin\Debug\netcoreapp3.1\PhoneManagement.exe
+C:\CodeGym\Class\C0220I1\C0220I1\Module2\GenericDemo\PhoneManagement\bin\Debug\netcoreapp3.1\PhoneManagement.deps.json
+C:\CodeGym\Class\C0220I1\C0220I1\Module2\GenericDemo\PhoneManagement\bin\Debug\netcoreapp3.1\PhoneManagement.runtimeconfig.json
+C:\CodeGym\Class\C0220I1\C0220I1\Module2\GenericDemo\PhoneManagement\bin\Debug\netcoreapp3.1\PhoneManagement.runtimeconfig.dev.json
+C:\CodeGym\Class\C0220I1\C0220I1\Module2\GenericDemo\PhoneManagement\bin\Debug\netcoreapp3.1\PhoneManagement.dll
+C:\CodeGym\Class\C0220I1\C0220I1\Module2\GenericDemo\PhoneManagement\bin\Debug\netcoreapp3.1\PhoneManagement.pdb
+C:\CodeGym\Class\C0220I1\C0220I1\Module2\GenericDemo\PhoneManagement\obj\Debug\netcoreapp3.1\PhoneManagement.csprojAssemblyReference.cache
+C:\CodeGym\Class\C0220I1\C0220I1\Module2\GenericDemo\PhoneManagement\obj\Debug\netcoreapp3.1\PhoneManagement.csproj.CoreCompileInputs.cache
+C:\CodeGym\Class\C0220I1\C0220I1\Module2\GenericDemo\PhoneManagement\obj\Debug\netcoreapp3.1\PhoneManagement.AssemblyInfoInputs.cache
+C:\CodeGym\Class\C0220I1\C0220I1\Module2\GenericDemo\PhoneManagement\obj\Debug\netcoreapp3.1\PhoneManagement.AssemblyInfo.cs
+C:\CodeGym\Class\C0220I1\C0220I1\Module2\GenericDemo\PhoneManagement\obj\Debug\netcoreapp3.1\PhoneManagement.dll
+C:\CodeGym\Class\C0220I1\C0220I1\Module2\GenericDemo\PhoneManagement\obj\Debug\netcoreapp3.1\PhoneManagement.pdb
+C:\CodeGym\Class\C0220I1\C0220I1\Module2\GenericDemo\PhoneManagement\obj\Debug\netcoreapp3.1\PhoneManagement.genruntimeconfig.cache
