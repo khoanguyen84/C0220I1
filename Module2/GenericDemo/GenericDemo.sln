@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.30104.148
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenericDemo", "GenericDemo\GenericDemo.csproj", "{4C17EB44-4AE9-4719-AAE3-6282446125C5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhoneManagement", "PhoneManagement\PhoneManagement.csproj", "{D3DE1D5C-F12D-4B4C-87E6-7479AC5BD761}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PhoneManagement", "PhoneManagement\PhoneManagement.csproj", "{D3DE1D5C-F12D-4B4C-87E6-7479AC5BD761}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NUnitTest", "NUnitTest\NUnitTest.csproj", "{FE8E6417-80E1-4F96-AEC5-A6E8828A0768}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{D3DE1D5C-F12D-4B4C-87E6-7479AC5BD761}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D3DE1D5C-F12D-4B4C-87E6-7479AC5BD761}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D3DE1D5C-F12D-4B4C-87E6-7479AC5BD761}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE8E6417-80E1-4F96-AEC5-A6E8828A0768}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE8E6417-80E1-4F96-AEC5-A6E8828A0768}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE8E6417-80E1-4F96-AEC5-A6E8828A0768}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE8E6417-80E1-4F96-AEC5-A6E8828A0768}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

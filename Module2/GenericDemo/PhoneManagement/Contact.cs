@@ -4,7 +4,7 @@ using System.Text;
 
 namespace PhoneManagement
 {
-    class Contact
+    public class Contact
     {
         public string Name { get; set; }
         public string PhoneNumber { get; set; }

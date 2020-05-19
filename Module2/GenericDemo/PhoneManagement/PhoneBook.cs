@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Runtime.InteropServices.ComTypes;
 using System.Text;
 
 namespace PhoneManagement
@@ -45,12 +46,26 @@ namespace PhoneManagement
 
         public override void RemovePhone(string name)
         {
-            throw new NotImplementedException();
+            if (Check(name, out int pos))
+            {
+                PhoneList.RemoveAt(pos);
+            }
+            else
+            {
+                Console.WriteLine("invalid item");
+            }
         }
 
         public override void Search(string name)
         {
-            throw new NotImplementedException();
+            if(Check(name, out int pos))
+            {
+                Console.WriteLine(((Contact)PhoneList[pos]).ToString());
+            }
+            else
+            {
+                Console.WriteLine("Not found");
+            }
         }
 
         public override void Sort()
@@ -61,7 +76,14 @@ namespace PhoneManagement
 
         public override void UpdatePhone(string name, string newPhone)
         {
-            throw new NotImplementedException();
+            if (Check(name, out int pos))
+            {
+                ((Contact)PhoneList[pos]).PhoneNumber = newPhone;
+            }
+            else
+            {
+                Console.WriteLine("Not found");
+            }
         }
 
         public void Display()

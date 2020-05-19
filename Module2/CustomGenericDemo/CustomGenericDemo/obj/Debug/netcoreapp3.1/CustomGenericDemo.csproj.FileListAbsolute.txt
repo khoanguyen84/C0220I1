@@ -1,0 +1,13 @@
+C:\CodeGym\Class\C0220I1\C0220I1\Module2\CustomGenericDemo\CustomGenericDemo\bin\Debug\netcoreapp3.1\CustomGenericDemo.exe
+C:\CodeGym\Class\C0220I1\C0220I1\Module2\CustomGenericDemo\CustomGenericDemo\bin\Debug\netcoreapp3.1\CustomGenericDemo.deps.json
+C:\CodeGym\Class\C0220I1\C0220I1\Module2\CustomGenericDemo\CustomGenericDemo\bin\Debug\netcoreapp3.1\CustomGenericDemo.runtimeconfig.json
+C:\CodeGym\Class\C0220I1\C0220I1\Module2\CustomGenericDemo\CustomGenericDemo\bin\Debug\netcoreapp3.1\CustomGenericDemo.runtimeconfig.dev.json
+C:\CodeGym\Class\C0220I1\C0220I1\Module2\CustomGenericDemo\CustomGenericDemo\bin\Debug\netcoreapp3.1\CustomGenericDemo.dll
+C:\CodeGym\Class\C0220I1\C0220I1\Module2\CustomGenericDemo\CustomGenericDemo\bin\Debug\netcoreapp3.1\CustomGenericDemo.pdb
+C:\CodeGym\Class\C0220I1\C0220I1\Module2\CustomGenericDemo\CustomGenericDemo\obj\Debug\netcoreapp3.1\CustomGenericDemo.csprojAssemblyReference.cache
+C:\CodeGym\Class\C0220I1\C0220I1\Module2\CustomGenericDemo\CustomGenericDemo\obj\Debug\netcoreapp3.1\CustomGenericDemo.csproj.CoreCompileInputs.cache
+C:\CodeGym\Class\C0220I1\C0220I1\Module2\CustomGenericDemo\CustomGenericDemo\obj\Debug\netcoreapp3.1\CustomGenericDemo.AssemblyInfoInputs.cache
+C:\CodeGym\Class\C0220I1\C0220I1\Module2\CustomGenericDemo\CustomGenericDemo\obj\Debug\netcoreapp3.1\CustomGenericDemo.AssemblyInfo.cs
+C:\CodeGym\Class\C0220I1\C0220I1\Module2\CustomGenericDemo\CustomGenericDemo\obj\Debug\netcoreapp3.1\CustomGenericDemo.dll
+C:\CodeGym\Class\C0220I1\C0220I1\Module2\CustomGenericDemo\CustomGenericDemo\obj\Debug\netcoreapp3.1\CustomGenericDemo.pdb
+C:\CodeGym\Class\C0220I1\C0220I1\Module2\CustomGenericDemo\CustomGenericDemo\obj\Debug\netcoreapp3.1\CustomGenericDemo.genruntimeconfig.cache

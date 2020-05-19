@@ -4,7 +4,7 @@ using System.Text;
 
 namespace PhoneManagement
 {
-    abstract class Phone
+    public abstract class Phone
     {
         public abstract void InsertPhone(string name, string phone);
         public abstract void RemovePhone(string name);
