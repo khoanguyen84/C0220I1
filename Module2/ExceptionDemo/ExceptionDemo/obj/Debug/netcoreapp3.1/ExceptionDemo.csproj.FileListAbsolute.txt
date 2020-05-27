@@ -1,0 +1,13 @@
+C:\CodeGym\Class\C0220I1\C0220I1\Module2\ExceptionDemo\ExceptionDemo\bin\Debug\netcoreapp3.1\ExceptionDemo.exe
+C:\CodeGym\Class\C0220I1\C0220I1\Module2\ExceptionDemo\ExceptionDemo\bin\Debug\netcoreapp3.1\ExceptionDemo.deps.json
+C:\CodeGym\Class\C0220I1\C0220I1\Module2\ExceptionDemo\ExceptionDemo\bin\Debug\netcoreapp3.1\ExceptionDemo.runtimeconfig.json
+C:\CodeGym\Class\C0220I1\C0220I1\Module2\ExceptionDemo\ExceptionDemo\bin\Debug\netcoreapp3.1\ExceptionDemo.runtimeconfig.dev.json
+C:\CodeGym\Class\C0220I1\C0220I1\Module2\ExceptionDemo\ExceptionDemo\bin\Debug\netcoreapp3.1\ExceptionDemo.dll
+C:\CodeGym\Class\C0220I1\C0220I1\Module2\ExceptionDemo\ExceptionDemo\bin\Debug\netcoreapp3.1\ExceptionDemo.pdb
+C:\CodeGym\Class\C0220I1\C0220I1\Module2\ExceptionDemo\ExceptionDemo\obj\Debug\netcoreapp3.1\ExceptionDemo.csprojAssemblyReference.cache
+C:\CodeGym\Class\C0220I1\C0220I1\Module2\ExceptionDemo\ExceptionDemo\obj\Debug\netcoreapp3.1\ExceptionDemo.csproj.CoreCompileInputs.cache
+C:\CodeGym\Class\C0220I1\C0220I1\Module2\ExceptionDemo\ExceptionDemo\obj\Debug\netcoreapp3.1\ExceptionDemo.AssemblyInfoInputs.cache
+C:\CodeGym\Class\C0220I1\C0220I1\Module2\ExceptionDemo\ExceptionDemo\obj\Debug\netcoreapp3.1\ExceptionDemo.AssemblyInfo.cs
+C:\CodeGym\Class\C0220I1\C0220I1\Module2\ExceptionDemo\ExceptionDemo\obj\Debug\netcoreapp3.1\ExceptionDemo.dll
+C:\CodeGym\Class\C0220I1\C0220I1\Module2\ExceptionDemo\ExceptionDemo\obj\Debug\netcoreapp3.1\ExceptionDemo.pdb
+C:\CodeGym\Class\C0220I1\C0220I1\Module2\ExceptionDemo\ExceptionDemo\obj\Debug\netcoreapp3.1\ExceptionDemo.genruntimeconfig.cache

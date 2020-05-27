@@ -1,0 +1,13 @@
+C:\CodeGym\Class\C0220I1\C0220I1\Module2\SearchDemo\SearchDemo\bin\Debug\netcoreapp3.1\SearchDemo.exe
+C:\CodeGym\Class\C0220I1\C0220I1\Module2\SearchDemo\SearchDemo\bin\Debug\netcoreapp3.1\SearchDemo.deps.json
+C:\CodeGym\Class\C0220I1\C0220I1\Module2\SearchDemo\SearchDemo\bin\Debug\netcoreapp3.1\SearchDemo.runtimeconfig.json
+C:\CodeGym\Class\C0220I1\C0220I1\Module2\SearchDemo\SearchDemo\bin\Debug\netcoreapp3.1\SearchDemo.runtimeconfig.dev.json
+C:\CodeGym\Class\C0220I1\C0220I1\Module2\SearchDemo\SearchDemo\bin\Debug\netcoreapp3.1\SearchDemo.dll
+C:\CodeGym\Class\C0220I1\C0220I1\Module2\SearchDemo\SearchDemo\bin\Debug\netcoreapp3.1\SearchDemo.pdb
+C:\CodeGym\Class\C0220I1\C0220I1\Module2\SearchDemo\SearchDemo\obj\Debug\netcoreapp3.1\SearchDemo.csprojAssemblyReference.cache
+C:\CodeGym\Class\C0220I1\C0220I1\Module2\SearchDemo\SearchDemo\obj\Debug\netcoreapp3.1\SearchDemo.csproj.CoreCompileInputs.cache
+C:\CodeGym\Class\C0220I1\C0220I1\Module2\SearchDemo\SearchDemo\obj\Debug\netcoreapp3.1\SearchDemo.AssemblyInfoInputs.cache
+C:\CodeGym\Class\C0220I1\C0220I1\Module2\SearchDemo\SearchDemo\obj\Debug\netcoreapp3.1\SearchDemo.AssemblyInfo.cs
+C:\CodeGym\Class\C0220I1\C0220I1\Module2\SearchDemo\SearchDemo\obj\Debug\netcoreapp3.1\SearchDemo.dll
+C:\CodeGym\Class\C0220I1\C0220I1\Module2\SearchDemo\SearchDemo\obj\Debug\netcoreapp3.1\SearchDemo.pdb
+C:\CodeGym\Class\C0220I1\C0220I1\Module2\SearchDemo\SearchDemo\obj\Debug\netcoreapp3.1\SearchDemo.genruntimeconfig.cache

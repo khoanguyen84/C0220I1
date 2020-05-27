@@ -1,0 +1,13 @@
+C:\CodeGym\Class\C0220I1\C0220I1\Module2\ForumManagement\ForumManagement\bin\Debug\netcoreapp3.1\ForumManagement.exe
+C:\CodeGym\Class\C0220I1\C0220I1\Module2\ForumManagement\ForumManagement\bin\Debug\netcoreapp3.1\ForumManagement.deps.json
+C:\CodeGym\Class\C0220I1\C0220I1\Module2\ForumManagement\ForumManagement\bin\Debug\netcoreapp3.1\ForumManagement.runtimeconfig.json
+C:\CodeGym\Class\C0220I1\C0220I1\Module2\ForumManagement\ForumManagement\bin\Debug\netcoreapp3.1\ForumManagement.runtimeconfig.dev.json
+C:\CodeGym\Class\C0220I1\C0220I1\Module2\ForumManagement\ForumManagement\bin\Debug\netcoreapp3.1\ForumManagement.dll
+C:\CodeGym\Class\C0220I1\C0220I1\Module2\ForumManagement\ForumManagement\bin\Debug\netcoreapp3.1\ForumManagement.pdb
+C:\CodeGym\Class\C0220I1\C0220I1\Module2\ForumManagement\ForumManagement\obj\Debug\netcoreapp3.1\ForumManagement.csprojAssemblyReference.cache
+C:\CodeGym\Class\C0220I1\C0220I1\Module2\ForumManagement\ForumManagement\obj\Debug\netcoreapp3.1\ForumManagement.csproj.CoreCompileInputs.cache
+C:\CodeGym\Class\C0220I1\C0220I1\Module2\ForumManagement\ForumManagement\obj\Debug\netcoreapp3.1\ForumManagement.AssemblyInfoInputs.cache
+C:\CodeGym\Class\C0220I1\C0220I1\Module2\ForumManagement\ForumManagement\obj\Debug\netcoreapp3.1\ForumManagement.AssemblyInfo.cs
+C:\CodeGym\Class\C0220I1\C0220I1\Module2\ForumManagement\ForumManagement\obj\Debug\netcoreapp3.1\ForumManagement.dll
+C:\CodeGym\Class\C0220I1\C0220I1\Module2\ForumManagement\ForumManagement\obj\Debug\netcoreapp3.1\ForumManagement.pdb
+C:\CodeGym\Class\C0220I1\C0220I1\Module2\ForumManagement\ForumManagement\obj\Debug\netcoreapp3.1\ForumManagement.genruntimeconfig.cache

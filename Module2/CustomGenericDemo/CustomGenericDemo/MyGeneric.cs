@@ -8,7 +8,7 @@ namespace CustomGenericDemo
     /// T = Type (Kiểu dữ liệu)
     /// </summary>
     /// <typeparam name="T"></typeparam>
-    class MyGeneric<T>// where T : class
+    class MyGeneric<T> where T : class
     {
         private T[] list;
         public int Count { get; private set; }
