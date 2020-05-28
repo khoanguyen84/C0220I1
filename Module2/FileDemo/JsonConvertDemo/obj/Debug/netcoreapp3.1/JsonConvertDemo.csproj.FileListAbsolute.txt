@@ -1,0 +1,15 @@
+C:\CodeGym\Class\C0220I1\C0220I1\Module2\FileDemo\JsonConvertDemo\bin\Debug\netcoreapp3.1\JsonConvertDemo.exe
+C:\CodeGym\Class\C0220I1\C0220I1\Module2\FileDemo\JsonConvertDemo\obj\Debug\netcoreapp3.1\JsonConvertDemo.csprojAssemblyReference.cache
+C:\CodeGym\Class\C0220I1\C0220I1\Module2\FileDemo\JsonConvertDemo\obj\Debug\netcoreapp3.1\JsonConvertDemo.AssemblyInfoInputs.cache
+C:\CodeGym\Class\C0220I1\C0220I1\Module2\FileDemo\JsonConvertDemo\obj\Debug\netcoreapp3.1\JsonConvertDemo.AssemblyInfo.cs
+C:\CodeGym\Class\C0220I1\C0220I1\Module2\FileDemo\JsonConvertDemo\bin\Debug\netcoreapp3.1\JsonConvertDemo.deps.json
+C:\CodeGym\Class\C0220I1\C0220I1\Module2\FileDemo\JsonConvertDemo\bin\Debug\netcoreapp3.1\JsonConvertDemo.runtimeconfig.json
+C:\CodeGym\Class\C0220I1\C0220I1\Module2\FileDemo\JsonConvertDemo\bin\Debug\netcoreapp3.1\JsonConvertDemo.runtimeconfig.dev.json
+C:\CodeGym\Class\C0220I1\C0220I1\Module2\FileDemo\JsonConvertDemo\bin\Debug\netcoreapp3.1\JsonConvertDemo.dll
+C:\CodeGym\Class\C0220I1\C0220I1\Module2\FileDemo\JsonConvertDemo\bin\Debug\netcoreapp3.1\JsonConvertDemo.pdb
+C:\CodeGym\Class\C0220I1\C0220I1\Module2\FileDemo\JsonConvertDemo\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\CodeGym\Class\C0220I1\C0220I1\Module2\FileDemo\JsonConvertDemo\obj\Debug\netcoreapp3.1\JsonConvertDemo.csproj.CoreCompileInputs.cache
+C:\CodeGym\Class\C0220I1\C0220I1\Module2\FileDemo\JsonConvertDemo\obj\Debug\netcoreapp3.1\JsonConvertDemo.csproj.CopyComplete
+C:\CodeGym\Class\C0220I1\C0220I1\Module2\FileDemo\JsonConvertDemo\obj\Debug\netcoreapp3.1\JsonConvertDemo.dll
+C:\CodeGym\Class\C0220I1\C0220I1\Module2\FileDemo\JsonConvertDemo\obj\Debug\netcoreapp3.1\JsonConvertDemo.pdb
+C:\CodeGym\Class\C0220I1\C0220I1\Module2\FileDemo\JsonConvertDemo\obj\Debug\netcoreapp3.1\JsonConvertDemo.genruntimeconfig.cache

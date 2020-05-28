@@ -1,0 +1,70 @@
+{
+  "students": [
+    {
+      "Id": 3,
+      "Fullname": "Tôn Thất Anh Minh",
+      "Gender": "Nam",
+      "DOB": "12 Mar 2010",
+      "Age": 10,
+      "Toan": 9.3,
+      "Ly": 7.3,
+      "Hoa": 6.3,
+      "Average": 7.633333333333334
+    },
+    {
+      "Id": 4,
+      "Fullname": "Quang Nguyễn",
+      "Gender": "Nam",
+      "DOB": "12 Mar 2010",
+      "Age": 10,
+      "Toan": 9.3,
+      "Ly": 7.3,
+      "Hoa": 6.3,
+      "Average": 7.633333333333334
+    },
+    {
+      "Id": 5,
+      "Fullname": "Trâm Nguyễn",
+      "Gender": "Nu",
+      "DOB": "12 Mar 2010",
+      "Age": 10,
+      "Toan": 9.3,
+      "Ly": 7.3,
+      "Hoa": 6.3,
+      "Average": 7.633333333333334
+    },
+    {
+      "Id": 6,
+      "Fullname": "Trung Nguyễn",
+      "Gender": "Nam",
+      "DOB": "07 Mar 2000",
+      "Age": 20,
+      "Toan": 9.3,
+      "Ly": 7.3,
+      "Hoa": 6.3,
+      "Average": 7.633333333333334
+    },
+    {
+      "Id": 7,
+      "Fullname": "Ghi Nguyễn",
+      "Gender": "Nu",
+      "DOB": "12 Mar 2004",
+      "Age": 16,
+      "Toan": 9.3,
+      "Ly": 7.3,
+      "Hoa": 6.3,
+      "Average": 7.633333333333334
+    },
+    {
+      "Id": 8,
+      "Fullname": "Hoàng Phan",
+      "Gender": "Nam",
+      "DOB": "07 Mar 2007",
+      "Age": 13,
+      "Toan": 9.3,
+      "Ly": 7.3,
+      "Hoa": 6.3,
+      "Average": 7.633333333333334
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+﻿{
+  "students": [
+    {
+      "id": 3,
+      "fullName": "Tôn Thất Anh Minh",
+      "gender": true,
+      "dob": "2010-03-12",
+      "courses": [
+        {
+          "name": "Toan",
+          "score": 9.3
+        },
+        {
+          "name": "Ly",
+          "score": 7.3
+        },
+        {
+          "name": "Hoa",
+          "score": 6.3
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "fullName": "Quang Nguyễn",
+      "gender": true,
+      "dob": "2010-03-12",
+      "courses": [
+        {
+          "name": "Toan",
+          "score": 9.3
+        },
+        {
+          "name": "Ly",
+          "score": 7.3
+        },
+        {
+          "name": "Hoa",
+          "score": 6.3
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "fullName": "Trâm Nguyễn",
+      "gender": false,
+      "dob": "2010-03-12",
+      "courses": [
+        {
+          "name": "Toan",
+          "score": 9.3
+        },
+        {
+          "name": "Ly",
+          "score": 7.3
+        },
+        {
+          "name": "Hoa",
+          "score": 6.3
+        }
+      ]
+    },
+    {
+      "fullName": "Trung Nguyễn",
+      "gender": true,
+      "dob": "2000-03-07",
+      "id": 6,
+      "courses": [
+        {
+          "name": "Toan",
+          "score": 9.3
+        },
+        {
+          "name": "Ly",
+          "score": 7.3
+        },
+        {
+          "name": "Hoa",
+          "score": 6.3
+        }
+      ]
+    },
+    {
+      "fullName": "Ghi Nguyễn",
+      "gender": false,
+      "dob": "2004-03-12",
+      "id": 7,
+      "courses": [
+        {
+          "name": "Toan",
+          "score": 9.3
+        },
+        {
+          "name": "Ly",
+          "score": 7.3
+        },
+        {
+          "name": "Hoa",
+          "score": 6.3
+        }
+      ]
+    },
+    {
+      "fullName": "Hoàng Phan",
+      "gender": true,
+      "dob": "2007-03-07",
+      "id": 8,
+      "courses": [
+        {
+          "name": "Toan",
+          "score": 9.3
+        },
+        {
+          "name": "Ly",
+          "score": 7.3
+        },
+        {
+          "name": "Hoa",
+          "score": 6.3
+        }
+      ]
+    }
+  ]
+}
