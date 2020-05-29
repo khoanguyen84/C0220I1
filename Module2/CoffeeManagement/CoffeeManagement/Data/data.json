@@ -1,0 +1,98 @@
+{
+  "tables": [
+    {
+      "tableid": "1",
+      "starttime": "29/05/2020 02:35 PM",
+      "endtime": "29/05/2020 03:30 PM",
+      "cashier": "Ngan",
+      "ispaid": true,
+      "totalamount": 89000.0,
+      "orderdetails": [
+        {
+          "name": "Black coffee",
+          "count": 2,
+          "price": 10000,
+          "amount": 20000.0
+        },
+        {
+          "name": "Milk coffee",
+          "count": 3,
+          "price": 15000,
+          "amount": 45000.0
+        },
+        {
+          "name": "Pepsi",
+          "count": 2,
+          "price": 12000,
+          "amount": 24000.0
+        }
+      ]
+    },
+    {
+      "tableid": "2",
+      "starttime": "29/05/2020 03:11 PM",
+      "endtime": "",
+      "cashier": "Duy",
+      "ispaid": false,
+      "totalamount": 70000.0,
+      "orderdetails": [
+        {
+          "name": "Beer",
+          "count": 2,
+          "price": 20000,
+          "amount": 40000.0
+        },
+        {
+          "name": "Coca",
+          "count": 3,
+          "price": 10000,
+          "amount": 30000.0
+        }
+      ]
+    },
+    {
+      "tableid": "1",
+      "starttime": "29/05/2020 03:37 PM",
+      "endtime": "",
+      "cashier": "Duy",
+      "ispaid": false,
+      "totalamount": 70000.0,
+      "orderdetails": [
+        {
+          "name": "Beer",
+          "count": 2,
+          "price": 20000,
+          "amount": 40000.0
+        },
+        {
+          "name": "Coca",
+          "count": 3,
+          "price": 10000,
+          "amount": 30000.0
+        }
+      ]
+    },
+    {
+      "tableid": "3",
+      "starttime": "29/05/2020 03:39 PM",
+      "endtime": "",
+      "cashier": "Duy",
+      "ispaid": false,
+      "totalamount": 70000.0,
+      "orderdetails": [
+        {
+          "name": "Beer",
+          "count": 2,
+          "price": 20000,
+          "amount": 40000.0
+        },
+        {
+          "name": "Coca",
+          "count": 3,
+          "price": 10000,
+          "amount": 30000.0
+        }
+      ]
+    }
+  ]
+}

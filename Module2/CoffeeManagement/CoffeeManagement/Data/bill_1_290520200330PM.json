@@ -1,0 +1,28 @@
+{
+  "tableid": "1",
+  "starttime": "29/05/2020 02:35 PM",
+  "endtime": "29/05/2020 03:30 PM",
+  "cashier": "Ngan",
+  "ispaid": true,
+  "totalamount": 89000.0,
+  "orderdetails": [
+    {
+      "name": "Black coffee",
+      "count": 2,
+      "price": 10000,
+      "amount": 20000.0
+    },
+    {
+      "name": "Milk coffee",
+      "count": 3,
+      "price": 15000,
+      "amount": 45000.0
+    },
+    {
+      "name": "Pepsi",
+      "count": 2,
+      "price": 12000,
+      "amount": 24000.0
+    }
+  ]
+}
