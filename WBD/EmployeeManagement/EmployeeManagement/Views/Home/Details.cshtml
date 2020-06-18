@@ -1,0 +1,26 @@
+﻿@model HomeDetailViewModel
+@{ 
+    ViewBag.Title = Model.TitleName;
+    //var employee = ViewBag.Employee as Employee;
+}
+<div class="row justify-content-center">
+    <div class="col-sm-6">
+        <div class="card my-2">
+            <div class="card-header">
+                <h3>@Model.Employee.Name</h3>
+            </div>
+            <div class="card-body text-center">
+                <img src="@Url.Content("~/"+Model.Employee.AvatarPath)" class="card-img-top" />
+                <h3>Employee ID: @Model.Employee.Id</h3>
+                <h3>Email: @Model.Employee.Email</h3>
+                <h3>Department: @Model.Employee.Department</h3>
+            </div>
+            <div class="card-footer text-center">
+                @*<a href="@Url.Action("Details","Home", new { id = Model.Employee.Id })" class="btn btn-info">View</a>*@
+                <a asp-controller="Home" asp-action="Index" class="btn btn-warning">Back</a>
+                <a href="#" class="btn btn-primary">Edit</a>
+                <a href="#" class="btn btn-danger">Delete</a>
+            </div>
+        </div>
+    </div>
+</div>

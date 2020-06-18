@@ -1,0 +1,13 @@
+C:\CodeGym\Class\C0220I1\C0220I1\Module2\ThreadingDemo\ThreadingDemo\bin\Debug\netcoreapp3.1\ThreadingDemo.exe
+C:\CodeGym\Class\C0220I1\C0220I1\Module2\ThreadingDemo\ThreadingDemo\bin\Debug\netcoreapp3.1\ThreadingDemo.deps.json
+C:\CodeGym\Class\C0220I1\C0220I1\Module2\ThreadingDemo\ThreadingDemo\bin\Debug\netcoreapp3.1\ThreadingDemo.runtimeconfig.json
+C:\CodeGym\Class\C0220I1\C0220I1\Module2\ThreadingDemo\ThreadingDemo\bin\Debug\netcoreapp3.1\ThreadingDemo.runtimeconfig.dev.json
+C:\CodeGym\Class\C0220I1\C0220I1\Module2\ThreadingDemo\ThreadingDemo\bin\Debug\netcoreapp3.1\ThreadingDemo.dll
+C:\CodeGym\Class\C0220I1\C0220I1\Module2\ThreadingDemo\ThreadingDemo\bin\Debug\netcoreapp3.1\ThreadingDemo.pdb
+C:\CodeGym\Class\C0220I1\C0220I1\Module2\ThreadingDemo\ThreadingDemo\obj\Debug\netcoreapp3.1\ThreadingDemo.csprojAssemblyReference.cache
+C:\CodeGym\Class\C0220I1\C0220I1\Module2\ThreadingDemo\ThreadingDemo\obj\Debug\netcoreapp3.1\ThreadingDemo.csproj.CoreCompileInputs.cache
+C:\CodeGym\Class\C0220I1\C0220I1\Module2\ThreadingDemo\ThreadingDemo\obj\Debug\netcoreapp3.1\ThreadingDemo.AssemblyInfoInputs.cache
+C:\CodeGym\Class\C0220I1\C0220I1\Module2\ThreadingDemo\ThreadingDemo\obj\Debug\netcoreapp3.1\ThreadingDemo.AssemblyInfo.cs
+C:\CodeGym\Class\C0220I1\C0220I1\Module2\ThreadingDemo\ThreadingDemo\obj\Debug\netcoreapp3.1\ThreadingDemo.dll
+C:\CodeGym\Class\C0220I1\C0220I1\Module2\ThreadingDemo\ThreadingDemo\obj\Debug\netcoreapp3.1\ThreadingDemo.pdb
+C:\CodeGym\Class\C0220I1\C0220I1\Module2\ThreadingDemo\ThreadingDemo\obj\Debug\netcoreapp3.1\ThreadingDemo.genruntimeconfig.cache

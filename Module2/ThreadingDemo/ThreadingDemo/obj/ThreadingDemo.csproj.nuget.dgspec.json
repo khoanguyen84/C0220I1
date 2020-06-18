@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\CodeGym\\Class\\C0220I1\\C0220I1\\Module2\\CoffeeManagement\\CoffeeManagement\\CoffeeManagement.csproj": {}
+    "C:\\CodeGym\\Class\\C0220I1\\C0220I1\\Module2\\ThreadingDemo\\ThreadingDemo\\ThreadingDemo.csproj": {}
   },
   "projects": {
-    "C:\\CodeGym\\Class\\C0220I1\\C0220I1\\Module2\\CoffeeManagement\\CoffeeManagement\\CoffeeManagement.csproj": {
+    "C:\\CodeGym\\Class\\C0220I1\\C0220I1\\Module2\\ThreadingDemo\\ThreadingDemo\\ThreadingDemo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\CodeGym\\Class\\C0220I1\\C0220I1\\Module2\\CoffeeManagement\\CoffeeManagement\\CoffeeManagement.csproj",
-        "projectName": "CoffeeManagement",
-        "projectPath": "C:\\CodeGym\\Class\\C0220I1\\C0220I1\\Module2\\CoffeeManagement\\CoffeeManagement\\CoffeeManagement.csproj",
+        "projectUniqueName": "C:\\CodeGym\\Class\\C0220I1\\C0220I1\\Module2\\ThreadingDemo\\ThreadingDemo\\ThreadingDemo.csproj",
+        "projectName": "ThreadingDemo",
+        "projectPath": "C:\\CodeGym\\Class\\C0220I1\\C0220I1\\Module2\\ThreadingDemo\\ThreadingDemo\\ThreadingDemo.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\CodeGym\\Class\\C0220I1\\C0220I1\\Module2\\CoffeeManagement\\CoffeeManagement\\obj\\",
+        "outputPath": "C:\\CodeGym\\Class\\C0220I1\\C0220I1\\Module2\\ThreadingDemo\\ThreadingDemo\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -42,12 +42,6 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "dependencies": {
-            "Newtonsoft.Json": {
-              "target": "Package",
-              "version": "[12.0.3, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
@@ -63,7 +57,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.202\\RuntimeIdentifierGraph.json"
         }
       }
     }

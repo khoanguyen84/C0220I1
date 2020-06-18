@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\CodeGym\\Class\\C0220I1\\C0220I1\\Module2\\CoffeeManagement\\CoffeeManagement\\CoffeeManagement.csproj": {}
+    "C:\\CodeGym\\Class\\C0220I1\\C0220I1\\WBD\\EmployeeManagement\\EmployeeManagement\\EmployeeManagement.csproj": {}
   },
   "projects": {
-    "C:\\CodeGym\\Class\\C0220I1\\C0220I1\\Module2\\CoffeeManagement\\CoffeeManagement\\CoffeeManagement.csproj": {
+    "C:\\CodeGym\\Class\\C0220I1\\C0220I1\\WBD\\EmployeeManagement\\EmployeeManagement\\EmployeeManagement.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\CodeGym\\Class\\C0220I1\\C0220I1\\Module2\\CoffeeManagement\\CoffeeManagement\\CoffeeManagement.csproj",
-        "projectName": "CoffeeManagement",
-        "projectPath": "C:\\CodeGym\\Class\\C0220I1\\C0220I1\\Module2\\CoffeeManagement\\CoffeeManagement\\CoffeeManagement.csproj",
+        "projectUniqueName": "C:\\CodeGym\\Class\\C0220I1\\C0220I1\\WBD\\EmployeeManagement\\EmployeeManagement\\EmployeeManagement.csproj",
+        "projectName": "EmployeeManagement",
+        "projectPath": "C:\\CodeGym\\Class\\C0220I1\\C0220I1\\WBD\\EmployeeManagement\\EmployeeManagement\\EmployeeManagement.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\CodeGym\\Class\\C0220I1\\C0220I1\\Module2\\CoffeeManagement\\CoffeeManagement\\obj\\",
+        "outputPath": "C:\\CodeGym\\Class\\C0220I1\\C0220I1\\WBD\\EmployeeManagement\\EmployeeManagement\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -42,12 +42,6 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "dependencies": {
-            "Newtonsoft.Json": {
-              "target": "Package",
-              "version": "[12.0.3, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
@@ -59,6 +53,9 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
