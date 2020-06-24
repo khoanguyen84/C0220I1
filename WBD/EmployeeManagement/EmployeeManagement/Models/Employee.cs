@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.AspNetCore.Http;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
@@ -20,6 +21,7 @@ namespace EmployeeManagement.Models
         [Required]
         public Dept? Department { get; set; }
         public string AvatarPath { get; set; }
+
 
         public override string ToString()
         {

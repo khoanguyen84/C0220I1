@@ -2,6 +2,7 @@
 @{ 
     ViewBag.Title = Model.TitleName;
     //var employee = ViewBag.Employee as Employee;
+    var avatarPath = $"/images/{(Model.Employee.AvatarPath ?? "nonavatar.png")}";
 }
 <div class="row justify-content-center">
     <div class="col-sm-6">
@@ -10,7 +11,7 @@
                 <h3>@Model.Employee.Name</h3>
             </div>
             <div class="card-body text-center">
-                <img src="@Url.Content("~/"+Model.Employee.AvatarPath)" class="card-img-top" />
+                <img src="@avatarPath" class="card-img-top" asp-append-version="true" />
                 <h3>Employee ID: @Model.Employee.Id</h3>
                 <h3>Email: @Model.Employee.Email</h3>
                 <h3>Department: @Model.Employee.Department</h3>
@@ -18,8 +19,9 @@
             <div class="card-footer text-center">
                 @*<a href="@Url.Action("Details","Home", new { id = Model.Employee.Id })" class="btn btn-info">View</a>*@
                 <a asp-controller="Home" asp-action="Index" class="btn btn-warning">Back</a>
-                <a href="#" class="btn btn-primary">Edit</a>
-                <a href="#" class="btn btn-danger">Delete</a>
+                <a asp-controller="Home" asp-action="Edit" asp-route-id="@Model.Employee.Id" class="btn btn-primary">Edit</a>
+                <a asp-controller="Home" asp-action="Delete" 
+                    asp-route-id="@Model.Employee.Id" class="btn btn-danger">Delete</a>
             </div>
         </div>
     </div>

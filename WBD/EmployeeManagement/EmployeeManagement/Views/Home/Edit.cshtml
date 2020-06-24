@@ -1,9 +1,12 @@
-﻿@model HomeCreateViewModel
-@{ 
-    ViewBag.Title = "Create employee";
+﻿@model HomeEditViewModel
+@{
+    ViewBag.Title = "Edit employee";
+    var avatarPath = $"/images/{(Model.AvatarPath ?? "nonavatar.png")}";
 }
 
-    <form enctype="multipart/form-data" asp-controller="Home" asp-action="Create" method="post" class="mt-2">
+    <form enctype="multipart/form-data" asp-controller="Home" asp-action="Edit" method="post" class="mt-2">
+        <input hidden asp-for="Id" />
+        <input hidden asp-for="AvatarPath" />
         <div class="row form-group">
             <div class="col-sm-2">
                 <label asp-for="Name"></label>
@@ -45,16 +48,18 @@
                 </div>
             </div>
         </div>
+        <div class="row col-4 offset-4">
+            <img src="@avatarPath" class="myImage" asp-append-version="true" />
+        </div>
         @*<div asp-validation-summary="All"></div>*@
         <div class="row form-group">
             <div class="col-sm-12">
-                <button type="submit" class="btn btn-primary">Create</button>
-                <a asp-controller="Home" asp-action="index" class="btn btn-warning">Back</a>
+                <button type="submit" class="btn btn-primary">Update</button>
+                <a asp-controller="Home" asp-action="index" class="btn btn-warning">Cancel</a>
             </div>
         </div>
     </form>
-
-@section Scripts{ 
+@section Scripts{
     <script>
         $(document).ready(function () {
             $(".custom-file-input").on("change", function () {
